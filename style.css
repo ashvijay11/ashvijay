@@ -225,7 +225,7 @@ body {
   transform: translateY(0); }
 
 .mail-btn:link, .mail-btn:visited {
-  border: 1px solid #55c57a !important;
+  border: 5px solid #55c57a !important;
 }
 
 .mail-btn:hover {
