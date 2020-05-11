@@ -229,7 +229,7 @@ body {
 }
 
 .mail-btn:hover {
-  border: 1px solid #55c57a !important;
+  border: 1rem solid #55c57a !important;
 }
 
 .mail-btn:active {
