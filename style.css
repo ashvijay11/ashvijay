@@ -332,6 +332,12 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
+  @media only screen and (max-width: 37.5em) {
+  .card__picture {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; } }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom,#096794, #289ad1); }
     .card__picture--11 {
@@ -357,6 +363,11 @@ body {
     top: 70%;
     right: 0;
     width: 75%; }
+  @media only screen and (max-width: 37.5em) {
+  .card__heading {
+    top: 30%;
+    right: 0;
+    width: 50%; } }
   .card__heading-span {
     padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
@@ -624,7 +635,7 @@ body {
     padding-top: 2rem;
     width: 80%;
     float: right;
-    text-align: justify; }
+    text-align: center; }
     @media only screen and (max-width: 56.25em) {
       .footer__copyright {
         width: 100%;
