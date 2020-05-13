@@ -110,7 +110,7 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .about-heading {
-    margin-top: 1rem;
+    margin-top: 2rem;
      } }
 
 .edu-heading {
@@ -118,7 +118,7 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .edu-heading {
-    margin-top: -1rem !important;
+    margin-top: 1rem !important;
      } }
 
 .tour-heading {
@@ -548,6 +548,9 @@ body {
     transform: scale(1.1);
     backface-visibility: hidden;
     transition: all .5s; }
+  @media only screen and (max-width: 37.5em) {
+      .story__img {
+        transform: scale(.9); } }
   .story__text {
     transform: skewX(12deg); }
     @media only screen and (max-width: 37.5em) {
@@ -620,7 +623,8 @@ body {
     border-top: 1px solid #777;
     padding-top: 2rem;
     width: 80%;
-    float: right; }
+    float: right;
+    text-align: justify; }
     @media only screen and (max-width: 56.25em) {
       .footer__copyright {
         width: 100%;
