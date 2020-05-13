@@ -70,6 +70,10 @@ body {
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
+  @media only screen and (max-width: 37.5em) {
+  .heading-primary {
+    margin-bottom: 4rem;
+     } }
   .heading-primary--main {
     display: block;
     font-size: 6rem;
@@ -87,6 +91,7 @@ body {
         .heading-primary--main {
           letter-spacing: 0;
           font-family: 3rem; } }
+
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -97,6 +102,8 @@ body {
       .heading-primary--sub {
         letter-spacing: 0;
         font-family: 1rem;} }
+
+
 
 .about-heading {
   margin-top: -5rem;
