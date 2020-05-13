@@ -85,8 +85,8 @@ body {
         */ }
     @media only screen and (max-width: 37.5em) {
         .heading-primary--main {
-          letter-spacing: 1rem;
-          font-family: 5rem; } }
+          letter-spacing: 0;
+          font-family: 3rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -95,7 +95,8 @@ body {
     animation: moveInRight 1s ease-out; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--sub {
-        letter-spacing: .5rem; } }
+        letter-spacing: 0;
+        font-family: 1rem;} }
 
 .about-heading {
   margin-top: -5rem;
