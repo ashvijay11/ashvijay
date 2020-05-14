@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Ashvijay Choudhri</title>
+        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
         <link rel="stylesheet" href="css/icon-font.css">
         <link rel="stylesheet" href="style.css">
-        
-        <title>Ashvijay Choudhri</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             function closeNav() {
             document.getElementById("navi-toggle").checked = false; }
         </script>
-
         <script src="jquery-3.5.1.min.js"></script>
-
         <script type="text/javascript">
             $(document).ready(function() {
                 var scrolllink = $('.scroll');
@@ -75,13 +75,13 @@
                     </video>
                 </div>
 
-                <div class="u-center-text u-margin-bottom-big about-heading">
+                <div data-aos="fade-left" class="u-center-text u-margin-bottom-big about-heading">
                     <h2 class="heading-secondary">
                         my experience so far...
                     </h2>
                 </div>
 
-                <div class="row">
+                <div data-aos="fade-left" class="row">
                     <div class="story">
                         <figure class="story__shape">
                             <img src="img/jio.png" alt="Person on a tour" class="story__img">
@@ -98,7 +98,7 @@
                     </div>
                 </div>
 
-                <div class="row u-margin-bottom-big">
+                <div data-aos="fade-left" class="row u-margin-bottom-big">
                     <div class="story">
                         <figure class="story__shape">
                             <img src="img/jio.png" alt="Person on a tour" class="story__img">
@@ -115,7 +115,7 @@
                     </div>
                 </div>
 
-                <div class="row u-margin-bottom-medium">
+                <div data-aos="fade-left" class="row u-margin-bottom-medium">
                     <div class="story">
                         <figure class="story__shape">
                             <img src="img/bolt.png" alt="Person on a tour" class="story__img story__img-1">
@@ -136,13 +136,13 @@
 
             <section class="section-features" id="section-features">
 
-                <div class="u-center-text u-margin-bottom-big edu-heading">
+                <div data-aos="fade-left" class="u-center-text u-margin-bottom-big edu-heading">
                     <h2 class="heading-secondary education-heading">
                         my education so far...
                     </h2>
                 </div>
                 
-                <div class="row">
+                <div data-aos="fade-up" class="row">
                     <div class="col-1-of-3">
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-sheet-pen"></i>
@@ -180,20 +180,20 @@
                     </div>
                 </div>
 
-                <div class="u-center-text u-margin-top-huge">
+                <div data-aos="fade-left" class="u-center-text u-margin-top-huge">
                     <a href="https://drive.google.com/open?id=1y_Uxuyy-eUvX7RFYRdaz99os5TW3saMY" target="_blank" class="btn btn--white btn--animated">view formal cv</a>
                 </div>
 
             </section>
 
             <section class="section-tours" id="section-tours">
-                <div class="u-center-text u-margin-bottom-big tour-heading">
+                <div data-aos="fade-left" class="u-center-text u-margin-bottom-big tour-heading">
                     <h2 style="color:#fff;" class="heading-secondary">
                         connect with me
                     </h2>
                 </div>
 
-                <div class="row">
+                <div data-aos="fade-up" class="row">
                     <div class="col-1-of-3">
                        <div class="card">
                            <div class="card__side card__side--front">
@@ -256,7 +256,7 @@
                     </div>
                 </div>
 
-                <div class="u-center-text u-margin-top-huge">
+                <div data-aos="fade-left" class="u-center-text u-margin-top-huge">
                     <a href="mailto: ashvijay.choudhri@gmail.com?" target="_blank" class="btn btn--white mail-btn">email me</a>
                 </div>
 
@@ -311,4 +311,7 @@
         </div>
 
     </body>
+    <script>
+        AOS.init();
+    </script>
 </html>
